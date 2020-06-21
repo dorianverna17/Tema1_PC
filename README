@@ -1,0 +1,40 @@
+Implementarea programului meu a durat o saptamana, cu lucru de aproximativ
+3 ore pe zi.
+I. Prima cerinta am implementat-o prin 9 functii plus main. Main contine 
+doar declarari si apeluri de functii. Doua dintre cele doua functii sunt
+strdel si strins, pentru stergerea unui nr de carctere de la o pozitie 
+data, respectiv inserare a unui sir de caractere la o pozitie data. Cele
+doua functii le-am mai folosit si la laborator si au fost date si la curs. 
+Am o functie de citire a sirului ce trebuie colorat, respectiv o functie 
+de citire numarului de linii. Urmatoarea functie este de citire a textului,
+apoi am o functie care imi returneaza pentru fiecare linie numarul de 
+aparitii al sirului respectiv in acestea si una de realocare care ii adauga
+atata memorie cat este necesara in functie de numarul de aparitii. 
+Urmatoarea functie este cea de modificare a sirului, ea inserand 
+secventele care determina colorarea cuvantului. Apoi urmeaza o functie 
+de afisare a textului si una de eliberare a memoriei de pe heap a acestuia.
+II. La cerinta 2 am 4 functii si main-ul, dintre care prima era strdel, cea
+pe care am avut-o si la prima cerinta. Cea de-a doua functie este cea de 
+citire a textului. Dupa asta mai am 2 functii, una imi pune intr-un vector
+de numere intregi campurile, pe care le transform cu functia atoi, iar 
+cea de-a doua se ocupa de afisare, in ea verificand daca cuvantul coincide 
+cu campul cautat, stergand vechii separatori si punandul pe cel cerut. 
+Functia main contine declarari, apelui ale functiilor si eliberarea memoriei
+de pe heap a textului.
+III. La cerinta 3 am 6 functii plus cea de main. Prima functie este cea de
+strdel, iar a doua este cea de citire. Am o functie care imi calculeaza 
+mediile notelor de pe fiecare linie, medii pe care apoi le pune intr-un 
+vector de medii. Urmatoare functie imi copiaza vectorul de medii in alt 
+vector auxiliar. Am o functie de sortare care sorteaza acest vector 
+descrescator cu bubblesort. Apoi mai am o functie de afisare care afiseaza
+liniile in functie de modul in care au fost sortate mediile. Functia main 
+contine apeluri de functii, declarari, iar la final, memoria alocata pe
+heap este eliberata.
+IV. La cerinta 4 am 5 functii si main-ul. Prima functie este cea de strdel,
+iar a doua este cea de citire. Am apoi o functie care imi returneaza 1 
+daca un cuvant dat parametru este un numar valid si 0 daca nu este numar. 
+Apoi am o functie care imi cripteaza un cuvant dat ca parametru. Ultima 
+functie este cea de modificare, care imi afiseaza de altfel si textul, 
+in ea fiind apelata functia de criptare si cea care verifica daca cuvantul
+este numar sau nu. Functia main contine apeluir de functii, declarari si 
+la sfarsit se elibereaza memoria de pe heap.
